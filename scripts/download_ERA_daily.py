@@ -23,5 +23,7 @@ request = {
     "frequency": "1_hourly"
 }
 
+save_path = 'data/output_file.nc' 
+
 client = cdsapi.Client()
-client.retrieve(dataset, request).download()
+client.retrieve(dataset, request,save_path)

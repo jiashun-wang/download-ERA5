@@ -1,0 +1,6 @@
+
+		begin
+      f = addfile("/Users/wjs/Desktop/download-ERA5/data/output_file.nc","r")
+      print(f)
+		end
+    
